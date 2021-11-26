@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
- module.exports = {
+module.exports = {
   siteMetadata: {
     title: "GlitchNobody",
     description: "Welcome to my portfolio",
