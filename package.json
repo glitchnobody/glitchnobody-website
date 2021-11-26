@@ -13,6 +13,13 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+
+  
+    "engines": {
+      "node": ">15"
+    },
+  
+
   "dependencies": {
     "@react-three/cannon": "^4.1.0",
     "@react-three/drei": "^7.22.9",
