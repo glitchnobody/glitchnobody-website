@@ -1,0 +1,185 @@
+.modalbackground {
+  width: 100%;
+  height: 100vh;
+  background-color: #160624de;
+  position: fixed;
+  top: 0;
+  z-index: 80;
+  left: 0;
+
+  border-radius: 0;
+}
+
+.modalcontain {
+  h2 {
+    cursor: pointer;
+    color: #121212 !important;
+  }
+  width: 98%;
+  height: 94vh;
+  background-color: #b9b9b9;
+  position: fixed;
+  top: 5%;
+  z-index: 80;
+  left: 1%;
+  overflow: hidden;
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: 94vh;
+  }
+}
+
+.namepluslink {
+  h3 {
+    padding: 2px 0 2px 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.gal4contain {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c d";
+  justify-content: space-evenly;
+}
+
+/////////
+
+.part {
+  margin: 5% 0 5% 0;
+  width: 40vw;
+  height: 50vw;
+}
+
+.part2 {
+  margin-top: 260px !important;
+}
+
+.part3 {
+  margin-top: -190px !important;
+}
+
+.part4 {
+  margin-top: 40px !important;
+}
+
+.srno {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600 !important;
+  padding: 2px 0 2px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.projectlinkm {
+  display: none;
+}
+
+.imglink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.projectlinkd,
+.projectlinkm {
+  cursor: pointer;
+  text-align: center;
+  width: 25vw;
+  margin-top: -100px;
+  background-color: rgba(255, 255, 255, 0.658);
+  mix-blend-mode: difference;
+  h4 {
+    margin: 0 !important;
+    text-transform: uppercase;
+    color: #121212 !important;
+  }
+}
+
+.imagegal {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  border-radius: 0.5%;
+  width: 40vw;
+  height: 40vw;
+}
+
+h6 {
+  color: #eeeeee;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1920px) {
+  .part {
+    margin: 5% 0 5% 0;
+    width: 30vw;
+    height: 35vw;
+  }
+
+  .imagegal {
+    width: 30vw;
+    height: 30vw;
+    background-color: antiquewhite;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projectlinkd {
+    display: none;
+  }
+
+  .projectlinkm {
+    display: none;
+    position: relative;
+
+    width: 60vw;
+    z-index: 22;
+    margin-top: -60px;
+    h5 {
+      color: #121212 !important;
+    }
+  }
+
+  .gal4contain {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+    justify-content: space-evenly;
+  }
+
+  .imagegal {
+    width: 90vw;
+    height: 90vw;
+    background-color: antiquewhite;
+  }
+
+  .part {
+    margin: 5% 0 15% 0;
+    width: 90vw;
+    height: 100vw;
+  }
+
+  .part2 {
+    margin-top: 20px !important;
+  }
+
+  .part3 {
+    margin-top: 60px !important;
+  }
+
+  .part4 {
+    margin-top: 120px !important;
+  }
+}

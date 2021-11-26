@@ -1,0 +1,49 @@
+.ocon {
+  pointer-events: none;
+  overflow: hidden;
+  top: 70vh;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.orangebar {
+  pointer-events: none;
+  top: 0;
+  position: absolute;
+  right: -41.05px;
+  z-index: 5;
+  background: #7962fa2f;
+  backdrop-filter: blur(7px);
+  transform: rotate(2deg);
+  word-wrap: none;
+  white-space: nowrap;
+}
+
+.marquee {
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+.marquee h2 {
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+  color: #202020;
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(50%, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ocon {
+    top: 60vh;
+  }
+}

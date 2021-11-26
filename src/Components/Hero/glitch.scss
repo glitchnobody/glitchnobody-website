@@ -1,0 +1,51 @@
+.contain {
+    pointer-events: none;
+    position: absolute;
+    display: grid;
+    justify-content: left;
+    top: 10vh;
+    width: 90vw;
+    padding-left: 2vw;
+    z-index: 2;
+  }
+  
+  .glitch {
+    pointer-events: none;
+    width: 669px;
+    word-wrap: normal;
+    
+    text-transform: capitalize;
+    animation: glitch 1.95s linear infinite;
+    text-shadow: 3px 0 #e772f1, -4px 0 #7263fa;
+  }
+  
+  @keyframes glitch {
+    2%,
+    64% {
+      transform: translate(2px, 0) skew(0deg);
+    }
+    4%,
+    60% {
+      transform: translate(-2px, 0) skew(0deg);
+    }
+    62% {
+      transform: translate(0, 0) skew(30deg);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contain {
+      position: absolute;
+      top: 10vh;
+      display: grid;
+      justify-content: center;
+      width: 100%;
+      padding-left: 0;
+    }
+    .glitch {
+      word-wrap: normal;
+      width: 340px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }

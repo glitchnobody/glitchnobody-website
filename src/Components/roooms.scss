@@ -1,0 +1,35 @@
+.head4proj {
+  margin-top: 10vh;
+}
+
+.projcontainer {
+  font-family: "Poppins", sans-serif;
+  width: 97%;
+  margin-left: 2.5%;
+}
+
+.Hovercontain {
+  margin: 40px 0 40px 0;
+  position: relative;
+
+  .linkprof {
+  }
+
+  h3 {
+    display: inline;
+  }
+}
+
+.projbg {
+  mix-blend-mode: none !important;
+  pointer-events: none;
+  position: fixed;
+  z-index: -3;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
