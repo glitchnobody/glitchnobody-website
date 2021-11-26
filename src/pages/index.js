@@ -2,6 +2,7 @@ import React from "react"
 import "../Components/index.scss"
 import Glitch from "../Components/Hero/Glitch"
 import TheBalls from "../Components/Hero/Theballs"
+import TheBallsm from "../Components/Hero/Theballsm"
 import Herobg from "../Components/Hero/Herobg"
 import Stripbg from "../Components/Hero/Stripbg"
 import FourMain from "../Components/gal/FourMain"
@@ -22,6 +23,7 @@ export default function Home() {
       <Glitch className="Glitch" />
       <Stripbg />
       <TheBalls className="bal" />
+      <TheBallsm className="balm" />
 
       <div className="selecwork">
         <span>SELECTED WORKS-</span>

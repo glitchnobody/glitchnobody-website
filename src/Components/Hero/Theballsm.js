@@ -7,9 +7,9 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import { Physics, usePlane, useSphere } from "@react-three/cannon"
 import { EffectComposer, SSAO, Bloom } from "@react-three/postprocessing"
 
-export default function TheBalls() {
+export default function TheBallsm() {
   return (
-    <Canvas  className="bal" dpr={1.5} shadows gl={{  alpha: true, stencil: false, depth: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
+    <Canvas  className="balm" dpr={1.5} shadows gl={{  alpha: true, stencil: true, depth: false, antialias: false }} camera={{ position: [0, 0, 20], fov: 50, near: 17, far: 40 }}>
  
  
       <ambientLight intensity={2} />
@@ -33,14 +33,14 @@ export default function TheBalls() {
       </Physics>
       <EffectComposer multisampling={0}>
 
-        <SSAO samples={4} radius={7} intensity={13} luminanceInfluence={0.3} color="black" />
+        <SSAO samples={6} radius={7} intensity={13} luminanceInfluence={0.3} color="black" />
       
       </EffectComposer>
     </Canvas>
   )
 }
 
-function InstancedSpheres({ count = 120 }) {
+function InstancedSpheres({ count = 30 }) {
   const { viewport } = useThree()
   const [ref] = useSphere((index) => ({ mass: 100, position: [4 - Math.random() * 8, viewport.height, 0, 0], args: [1.1] }))
   return (

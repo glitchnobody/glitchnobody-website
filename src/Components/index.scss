@@ -4,7 +4,19 @@
   position: relative;
   top: 0;
   z-index: 0 !important;
+  display: block;
 }
+
+.balm {
+  width: 100%;
+  height: 98vh !important;
+  position: relative;
+  top: 0;
+  z-index: 0 !important;
+  display:none;
+}
+
+
 .Glitch {
   pointer-events: none !important;
 }
@@ -223,6 +235,27 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .bal {
+    width: 100%;
+    height: 98vh !important;
+    position: relative;
+    top: 0;
+    z-index: 0 !important;
+    display: none;
+  }
+  
+  .balm {
+    width: 100%;
+    height: 98vh !important;
+    position: relative;
+    top: 0;
+    z-index: 0 !important;
+    display:block;
+  }
+  
+
+
   .imgtext {
     margin-top: 100px;
     display: flex;
