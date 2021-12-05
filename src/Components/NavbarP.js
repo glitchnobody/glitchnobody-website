@@ -139,11 +139,11 @@ const NavbarP = () => {
             </Link>
           </div>
           <div className="menu">
-            <a href="https://journal.glitchnobody.com/" target="_blank">
+            {/* <a href="https://journal.glitchnobody.com/" target="_blank">
               <button className="blog" ref={el => (blog = el)}>
                 Journal
               </button>
-            </a>
+            </a> */}
 
             <button
               ref={el => (menulogo = el)}
