@@ -113,7 +113,7 @@ export default function Home() {
             whileHover={{ color: "#7263fa" }}
             whileTap={{ color: "#7263fa" }}
           >
-            Lets Do Something Awsome → <h4>Contact Me</h4>
+            Lets Do Something Awesome → <h4>Contact Me</h4>
           </motion.span>
         </Link>
       </div>
