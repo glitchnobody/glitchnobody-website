@@ -28,21 +28,10 @@ export default function index() {
           projname="POSTER COLLECTION VI"
           projlink="https://www.behance.net/gallery/110470175/POSTER-COLLECTION-VI"
         />
-
-        <Hoverimg
-          bgproj="/galimg/logo2.png"
-          projname="LOGOPHOLIO - II"
-          projlink="https://www.behance.net/gallery/110469395/LOGOPHOLIO-II"
-        />
         <Hoverimg
           bgproj="/galimg/ph.png"
           projname="Photo Manipulation - I"
           projlink="https://www.behance.net/gallery/110468877/Photo-Manipulation-I"
-        />
-        <Hoverimg
-          bgproj="/galimg/logo1.jpg"
-          projname="LOGO PHOLIO I"
-          projlink="https://www.behance.net/gallery/110468575/LOGO-PHOLIO-I"
         />
         <Hoverimg
           bgproj="/galimg/gif.jpg"
